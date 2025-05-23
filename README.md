@@ -38,9 +38,11 @@ GET /health → Verifica se o servidor está online.
 🗃️ Variáveis de ambiente
 As variáveis estão definidas no .env:
 
+```
 DB_HOST=localhost
 DB_PORT=5432
 DB_USER=postgres
 DB_PASSWORD=postgres
 DB_NAME=go_api
 APP_PORT=8080
+```
